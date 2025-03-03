@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class borne {
+public class age {
 	public static void main(String[] args) {
 		Scanner N = new Scanner(System.in);
 		System.out.println("enter the year you where born:");
@@ -10,6 +10,9 @@ public class borne {
 		System.out.println("enter your name:");
 		String Name = N.nextLine();
 
-		System.out.print(Name + " age is : " + z);
+		System.out.println(Name + " age is : " + z);
+		System.out.println("\"happy\" life");
+		int c = (int) (Math.random() * 101);
+		System.out.println(c);
 	}
 }

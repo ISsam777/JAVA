@@ -13,5 +13,7 @@ public class arithmetic {
 		String fullName = firstName + lastName;
 
 		System.out.print(fullName + " age is : " + z);
+		System.out.print(fullName + " age is : " + z);
 	}
+
 }
